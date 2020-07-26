@@ -36,3 +36,4 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@3.5.8
       with:
         BRANCH: gh-pages
+        FOLDER: build
