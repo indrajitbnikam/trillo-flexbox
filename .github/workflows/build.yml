@@ -21,7 +21,7 @@ jobs:
     steps:
     - name: Checkout 💻
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+      uses: actions/checkout@v2
       with:
         persist-credentials: false
 
@@ -33,6 +33,6 @@ jobs:
 
     # Deploy stage
     - name: Deploy 🚀
-    - uses: JamesIves/github-pages-deploy-action@3.5.8
+      uses: JamesIves/github-pages-deploy-action@3.5.8
       with:
         BRANCH: gh-pages
