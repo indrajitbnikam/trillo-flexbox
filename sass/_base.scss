@@ -37,6 +37,12 @@ Grey dark 3: #999
   --line: 1px solid var(--color-grey-light-2);
 }
 
+$bp-largest: 75em;      // 1200px => 1200/16 = 75
+$bp-large: 68.75em;      // 1100px
+$bp-medium: 56.25em;      // 900px
+$bp-small: 37.5em;         // 600px
+$bp-smallest: 31.25em;      // 500px
+
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +51,10 @@ Grey dark 3: #999
 html {
   box-sizing: border-box;
   font-size: 62.5%; // this will put 1 rem => 10px (62.5% of 16px default)
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
 }
 
 // this makes every element enherit this box-sizing property defined above
