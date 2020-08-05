@@ -4,4 +4,4 @@
 
 ### You can checkout [live demo here].
 
-  [Live Demo here]: <https://indrajitbnikam.github.io/trillo-flexbox/>
+  [Live Demo here]: <http://trillo-flexbox.apps.indrajeet.me/>
